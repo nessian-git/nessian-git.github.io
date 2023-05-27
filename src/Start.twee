@@ -1,0 +1,19 @@
+:: StoryData
+{
+    "ifid": "095F4A0B-3C42-4ED7-80BF-A8CA7BAC267E",
+    "format": "SugarCube",
+    "format-version": "sugarcube-2.36.1",
+    "start": "Start"
+}
+
+:: StoryTitle
+Writing Tests For Twine Games
+
+:: Start
+!Foreword
+This is a quick demonstration of a method for writing test cases to validate custom logic in a complex Twine game.
+This design uses <a href="https://github.com/tmedwards/tweego#tweego" target="_blank">tweego</a> for compiling the story, but this method should be adaptible to non-tweego projects as well.
+
+If the project was compiled via compile_test.ps1, a link to the test passage would appear here:
+<<if Story.has("Test Cases")>>[[Test Cases]]
+<</if>>

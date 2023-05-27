@@ -1,0 +1,7 @@
+sugarcube-2:
+  macros:
+    displayTestCaseResult:
+      description: Displays the result of a test case. args(testResult)
+      arguments:
+        - name: testResult
+          type: variable

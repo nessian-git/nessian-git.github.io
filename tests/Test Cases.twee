@@ -1,0 +1,9 @@
+:: Test Cases
+!Test Cases
+----
+Running tests:
+
+<<displayTestCaseResult setup.tests.testExample()>>
+<<displayTestCaseResult setup.tests.testMary()>>
+
+----
