@@ -1,0 +1,17 @@
+:: Links to Sample Code
+!Sample Code
+
+The testing passage runs a javascript function which will perform the tests and returns a result object. The result object is passed to a macro called displayTestCaseResult. This macro takes the text from the result object and displays it to the passage. 
+
+----
+Example passage for running tests: <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/tests/Test%20Cases.twee" target="_blank">Test Cases.twee</a>
+
+The custom macro: <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/src/_macros.js" target="_blank">_macros.js</a>
+
+These are the test scripts being run: <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/tests/_tests.js" target="_blank">_tests.js</a>
+
+CSS required for hiding text: <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/src/_stylesheet.css" target="_blank">_stylesheet.css</a>
+
+Compile script (tweego): <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/compile_test.ps1" target="_blank">compile_test.ps1</a>
+
+If using the <a href="https://github.com/cyrusfirheir/twee3-language-tools/tree/master#twee-3-language-tools" target="_blank">Twee 3 Language Tools</a> extension for VSCode, you can add syntax highlighting for custom macros with this: <a href="https://github.com/nessian-git/sugarcube-twine-test-suite/blob/main/t3lt.twee-config.yml" target="_blank">t3lt.twee-config.yml</a>
